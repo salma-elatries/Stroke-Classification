@@ -42,6 +42,18 @@ This project aims to predict the likelihood of stroke using various machine lear
 *   Implement cross-validation for more robust model evaluation.
 *   Consider feature selection techniques.
 
+## Results
+
+| Model             | Accuracy (Before SMOTE) | F1-Score (Class '1') (Before SMOTE) | Accuracy (After SMOTE) | F1-Score (Class '1') (After SMOTE) |
+|-------------------|-------------------------|-------------------------------------|------------------------|------------------------------------|
+| KNN               | ~0.97                   | ~0.00                               | ~0.97                  | ~0.97                              |
+| Naive Bayes       | ~0.16                   | ~0.04                               | ~0.76                  | ~0.77                              |
+| Logistic Regression| ~0.97                   | ~0.00                               | ~0.74                  | ~0.73                              |
+| Decision Tree     | ~0.95                   | ~0.26                               | ~0.99                  | ~0.99                              |
+| Random Forest     | ~0.96                   | ~0.00                               | ~0.99                  | ~0.99                              |
+| SVM               | ~0.97                   | ~0.00                               | ~0.71                  | ~0.72                              |
+| Neural Network    | ~0.97                   | ~0.00                               | ~0.99                  | ~0.99                              |
+
 ## Authors
 
 Salma Elatries
