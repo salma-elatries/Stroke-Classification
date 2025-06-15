@@ -42,15 +42,11 @@ This project aims to predict the likelihood of stroke using various machine lear
 *   Implement cross-validation for more robust model evaluation.
 *   Consider feature selection techniques.
 
-## Contributing
-
-Contributions are welcome! Please feel free to open an issue or submit a pull request.
-
 ## Authors
 
 Salma Elatries
 
 ## Acknowledgements
 
-*   Dataset source: [Specify the source of the dataset]
+*   Dataset source: [Stroke Dataset](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset/data)
 *   Libraries and tools used: pandas, scikit-learn, tensorflow, etc.
